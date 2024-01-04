@@ -65,7 +65,7 @@ From this piece of code, you can tell the following:
 3. In case of an error, we show an error message.
 4. In the end, we close the database connection.
 
-### Sequelize Database Connection
+### Sequelize Model Definition
 
 A Model represents a table in the database. Let's create a model representing a table called todo for a todo list application.
 
