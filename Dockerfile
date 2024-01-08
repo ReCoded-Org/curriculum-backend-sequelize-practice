@@ -5,6 +5,6 @@ WORKDIR /app
 COPY . .
 RUN npm install
 EXPOSE 3000
-COPY entry.sh app/entry.sh
-RUN chmod +x app/entry.sh
+COPY entry.sh ./entry.sh
+RUN chmod +x ./entry.sh
 CMD ["./entry.sh"]
