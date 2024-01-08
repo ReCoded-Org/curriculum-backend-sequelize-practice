@@ -4,7 +4,12 @@
   "description": "Sequelize Practice",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "docker compose up",
+    "stop": "docker compose down",
+    "verify": "docker ps",
+    "execute": "docker compose run -i app",
+    "reset": "docker compose down -v"
   },
   "repository": {
     "type": "git",
